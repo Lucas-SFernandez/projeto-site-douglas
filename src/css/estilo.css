@@ -1,0 +1,24 @@
+header {
+    width: 1440px;
+    height: 734px;
+}
+
+li #foto-cabecalho {
+    width: 308px;
+    height: 308px;
+    border-radius: 308px;
+    border-radius: 308px;
+    border: 10px solid #603B94;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+ul #foto-cabecalho {
+    }
+
+div.cabecalho{
+    background-image: url('/src/imagens/adulto-segurando-bola-de-luz.jpg');
+    background-size: 1440px 734px;
+    background-color: #24647D 0px -752.368px / 100% 294.242% no-repeat;
+}
