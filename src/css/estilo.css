@@ -5,14 +5,27 @@ body {
 }
 
 header {
-    height: 734px;
+    height: 750px;
 }
 
 hgroup.fonte-cabecalho {
     font-family: 'Barlow Condensed', sans-serif;
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 100px;
     flex-direction: column;
+    color: #FFFFFF;
+}
+
+h1#titulo-cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
+h2#sub-titulo-cabecalho {
+    display: flex;
+    justify-content: center;
 }
 
 li #foto-cabecalho {
@@ -22,6 +35,10 @@ li #foto-cabecalho {
     border-radius: 308px;
     border: 10px solid #603B94;
     background: #FFF;
+    position: relative;
+    top: 170px;
+    display: flex;
+    justify-content: center;
 }
 
 li.foto-cabecalho {
@@ -30,12 +47,24 @@ li.foto-cabecalho {
     position: relative;
 }
 
+div.cabecalho {
+    height: 753px;
+    position: relative;
+    margin-top: -378px;
+}
+
 div#background {
     background-image: url('/src/imagens/adulto-segurando-bola-de-luz.jpg');
-    background-repeat: no-repeat;
+    opacity: 50%;
     background-size: 100%;
 }
 
-div.cabecalho {
+div.cor-de-fundo{
+    background-color: #24647D;
     height: 750px;
+    z-index: ;
+}
+
+img#meridianos {
+    width: 50px;
 }
