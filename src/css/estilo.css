@@ -59,12 +59,40 @@ div#background {
     background-size: 100%;
 }
 
-div.cor-de-fundo{
+div.cor-de-fundo {
     background-color: #24647D;
     height: 750px;
-    z-index: ;
+    /* z-index: ; */
 }
 
 img#meridianos {
-    width: 50px;
+    width: 182.964px;
+    height: 182.964px;
+}
+
+img#prosperidade {
+    width: 182.964px;
+    height: 182.964px;
+}
+
+img#bem-estar {
+    width: 182.964px;
+    height: 182.964px;
+}
+
+img#afetivas {
+    width: 182.964px;
+    height: 182.964px;
+}
+
+nav {
+    background-color: #578394;
+    width: 1583px;
+    height: 411px;
+}
+
+ul.cards {
+    display: flex;
+    justify-content: space-between;
+    
 }
