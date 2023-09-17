@@ -4,6 +4,7 @@ body {
     margin: 0 auto;
 }
 
+
 header {
     height: 750px;
     width: 100%;
@@ -382,22 +383,20 @@ ul.alinhar {
     gap: 50px;
 }
 
-div.cta{
+div.cta {
     background-color: #578394;
     display: flex;
     position: relative;
     align-items: center;
-    flex-direction: column;
     justify-content: center;
     width: 100%;
-    height: 2412px;
+    height: 2600px;
 }
 
 div.cta::before {
     content: "";
     position: absolute;
     inset: 0;
-    flex-direction: column;
     justify-content: center;
     background-image: url('/src/imagens/universo-colorido-refletida-na-agua.jpg');
     background-repeat: no-repeat;
@@ -407,22 +406,207 @@ div.cta::before {
     z-index: 0;
 }
 
-ul#cta{
-
+ul#cta {
+    grid-column: auto;
+    align-items: center;
+    position: relative;
+    height: 1850px;
+    margin-top: -750px;
 }
 
-img#maos {
-    width: 50px;
+ul#cta li {
+    align-items: center;
+    text-align: left;
+    position: relative;
+    padding: 100px;
 }
 
-img#silhueta {
-    width: 50px;
+ul#cta li input {
+    border-radius: 50px;
+    border-top: 7px solid rgba(61, 52, 74, 0.67);
+    border-left: 3px solid rgba(61, 52, 74, 0.67);
+    background: #603B94;
+    width: 446px;
+    height: 45px;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    float: right;
+    align-items: center;
+    margin: 30px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: -80px;
 }
 
-img#corpos {
-    width: 50px;
+ul#cta img {
+    float: right;
+    position: relative;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 546px;
+    height: 478px;
+    border-radius: 30px;
+    border: 10px solid #24647D;
+    background: lightgray -84.09px 0px / 131.352% 100% no-repeat;
+    margin-top: -600px;
+    margin-left: 100px;
 }
 
-footer li {
+ul#cta li h1 {
+    color: #77B2C9;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Alfa Slab One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    justify-content: center;
+    position: relative;
+    width: 595px;
+}
+
+ul#cta p {
+    color: #FFF;
+    font-family: Allerta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 500px;
+}
+
+div.depoimentos {
+    background-color: #578394;
+    height: 3960px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.depoimentos h1 {
+    color: #603B94;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+.carrossel {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.carrossel img {
+    width: 930px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 100px;
+}
+
+.botoes-carrossel{
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+}
+
+.botoes-carrossel .botao{
+    background-color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    cursor: pointer;
+    border-color: #ffffff;
+}
+
+.botoes-carrossel .botao.selecionado{
+    background-color: #24647D;
+}
+
+.botao.selecionado{
+    border-color: #000000;
+}
+
+footer {
+    background-color: #24647D;
+
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    justify-content: center;
+    background-image: url('/src/imagens/97d4253d79a9e59f19df904136673fc9-icone-de-flor-de-orquidea00.png');
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: bottom;
+    opacity: 30%;
+    z-index: 0;
+}
+
+footer div{
+    z-index: 1;
+}
+
+footer img {
     width: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+img#facebook {
+    width: 60px;
+    margin-top: 24.5px;
+}
+
+footer ul {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+div.copy {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.90);
+    text-align: center;
+    font-family: Allerta;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p#lucas {
+    position: relative;
+    text-align: right;
+    font-size: 13px;
+    margin-left: 1150px;
+    opacity: 80%;
+    margin-bottom: 20px;
 }
