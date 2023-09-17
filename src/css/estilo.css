@@ -6,7 +6,7 @@ body {
 
 header {
     height: 750px;
-    width: 1583px;
+    width: 100%;
 }
 
 hgroup.fonte-cabecalho {
@@ -23,12 +23,16 @@ h1#titulo-cabecalho {
     display: flex;
     justify-content: center;
     font-size: 80px;
+    z-index: 1;
+    opacity: 80%;
 }
 
 h2#sub-titulo-cabecalho {
     display: flex;
     justify-content: center;
     font-size: 50px;
+    z-index: 1;
+    opacity: 80%;
 }
 
 li #foto-cabecalho {
@@ -58,16 +62,30 @@ div.cabecalho {
 }
 
 div#background {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+div#background::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    flex-direction: column;
+    justify-content: center;
     background-image: url('/src/imagens/adulto-segurando-bola-de-luz.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     opacity: 50%;
-    background-size: 100%;
     z-index: 0;
 }
 
 div.cor-de-fundo {
     background-color: #24647D;
-    height: 750px;
 }
 
 img#meridianos {
@@ -101,20 +119,20 @@ img#afetivas {
 
 nav {
     background-color: #578394;
-    width: 1583px;
-    height: 411px;
+    width: 100%;
 }
 
 nav h1 {
     color: #603B94;
     text-align: center;
     font-family: Barlow Condensed;
-    font-size: 30px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     flex-wrap: wrap;
-    background: linear-gradient(0deg, rgba(61, 52, 74, 0.82) 0%, rgba(61, 52, 74, 0.82) 100%), url('/src/imagens/fotonoticia_20200428162622_4200.png'), lightgray -0.212px -280.483px / 100.157% 367.241% no-repeat;
+    padding-top: 10px;
+    /* background: linear-gradient(0deg, rgba(61, 52, 74, 0.82) 0%, rgba(61, 52, 74, 0.82) 100%), url('/src/imagens/fotonoticia_20200428162622_4200.png'), lightgray -0.212px -280.483px / 100.157% 367.241% no-repeat; */
 }
 
 nav p {
@@ -123,10 +141,11 @@ nav p {
     flex-shrink: 0;
     text-align: center;
     font-family: Allerta;
-    font-size: 20px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 10px;
 
 }
 
@@ -135,6 +154,7 @@ nav li {
     position: relative;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 ul.cards {
@@ -145,9 +165,7 @@ ul.cards {
 
 
 main {
-    width: 1583px;
-    height: 1878px;
-    background-color: #603B94;
+    width: 100%;
 }
 
 hgroup.titulo {
@@ -180,6 +198,7 @@ div.luis {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    background-color: #603B94;
 }
 
 div.luis::before {
@@ -224,10 +243,186 @@ p#text-luis {
     height: 801px;
 }
 
-img#foto-apometria {
-    width: 50px;
+div.apometria {
+    background-color: #3D344A;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+div.apometria::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('/src/imagens/fotonoticia_20200428162622_420.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 20%;
+    z-index: 0;
+}
+
+hgroup.apometria2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 75px;
+    flex-direction: column;
+}
+
+h1#o-que-e {
+    color: #77B2C9;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p#texto {
+    color: #FFF;
+    text-align: left;
+    font-family: Alatsi;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    margin: 0 auto;
+    top: 60px;
+    width: 1240px;
+    height: 801px;
+}
+
+div.duvidas {
+    background-color: #77B2C9;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+
+div.duvidas::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('/src/imagens/712.png');
+    background-repeat: round;
+    background-size: contain;
+    background-position: bottom;
+    opacity: 30%;
+    z-index: 0;
+}
+
+h1#duvidas {
+    color: #603B94;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    /* margin: 0 auto; */
+}
+
+article {
+    column-count: 3;
+    column-gap: 80px;
+    align-items: center;
+    position: relative;
+}
+
+article h2 {
+    color: #FFF;
+    font-family: Allerta;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 380px;
+    margin-bottom: 20px;
+}
+
+article p {
+    color: #FFF;
+    font-family: Allerta;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+ul.alinhar {
+    text-align: left;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 50px;
+}
+
+div.cta{
+    background-color: #578394;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 2412px;
+}
+
+div.cta::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('/src/imagens/universo-colorido-refletida-na-agua.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 20%;
+    z-index: 0;
+}
+
+ul#cta{
+
 }
 
 img#maos {
+    width: 50px;
+}
+
+img#silhueta {
+    width: 50px;
+}
+
+img#corpos {
+    width: 50px;
+}
+
+footer li {
     width: 50px;
 }
