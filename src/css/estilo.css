@@ -133,7 +133,6 @@ nav h1 {
     line-height: normal;
     flex-wrap: wrap;
     padding-top: 10px;
-    /* background: linear-gradient(0deg, rgba(61, 52, 74, 0.82) 0%, rgba(61, 52, 74, 0.82) 100%), url('/src/imagens/fotonoticia_20200428162622_4200.png'), lightgray -0.212px -280.483px / 100.157% 367.241% no-repeat; */
 }
 
 nav p {
@@ -147,7 +146,6 @@ nav p {
     font-weight: 400;
     line-height: normal;
     padding-top: 10px;
-
 }
 
 nav li {
