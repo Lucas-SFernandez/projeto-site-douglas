@@ -373,7 +373,7 @@
     div.depoimentos {
         width: 100%;
         margin: 0 auto;
-        height: 3100px;
+        height: 1050px;
     }
 
     div.depoimentos h1 {
@@ -408,7 +408,7 @@
         height: 150px;
     }
 
-    footer ul{
+    footer ul {
         margin-top: -50px;
     }
 
@@ -441,32 +441,41 @@
 @media (max-width: 425px) {
     body {
         margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+        height: 100%;
+        width: 100%;
     }
 
     div.cor-de-fundo {
         width: 100%;
-        height: 542px;
+        height: 500px;
     }
 
     div#background {
         width: 100%;
-        height: 728px;
+        height: 688px;
     }
 
-    #fonte-cabecalho {
+    .fonte-cabecalho {
         position: relative;
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
 
     h1#titulo-cabecalho {
         font-size: 40px;
+        align-items: center;
     }
 
     h2#sub-titulo-cabecalho {
         font-size: 25px;
+        align-items: center;
     }
 
     img#foto-cabecalho {
@@ -474,20 +483,33 @@
         height: 200px;
     }
 
-    ul.cards {
+    nav {
+        column-count: 2;
         width: 100%;
-        gap: 30px;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+
+    ul.cards {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding: 20px 20px;
+        width: 190px;
     }
 
     ul.cards li {
+        top: 20px;
+        bottom: 20px;
         display: flex;
         position: relative;
         justify-content: space-evenly;
         align-items: center;
-        margin: 0 auto;
         width: 150px;
     }
 
@@ -495,31 +517,25 @@
     img#prosperidade,
     img#bem-estar,
     img#afetivas {
-        width: 100.964px;
-        height: 100.964px;
+        width: 80.964px;
+        height: 80.964px;
         align-items: center;
         margin: 0 auto;
         position: relative;
         justify-content: space-evenly;
     }
 
-    img#meridianos {
-        top: -10px;
-    }
-
     nav h1 {
-        font-size: 20px;
-        width: 200px;
+        font-size: 16px;
     }
 
     nav p {
-        font-size: 13px;
-        width: 100%;
+        font-size: 11px;
     }
 
     .sobre-mim {
         height: 100%;
-        padding-bottom: 100px;
+        padding-bottom: 30px;
     }
 
     img#foto-luis {
@@ -528,16 +544,18 @@
     }
 
     hgroup h1#luis {
-        font-size: 60px;
+        font-size: 45px;
     }
 
     hgroup h2#sub-titulo-luis {
-        font-size: 40px;
+        font-size: 28px;
     }
 
     div p#text-luis {
-        width: 650px;
-        font-size: 25px;
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     div.apometria {
@@ -546,49 +564,56 @@
     }
 
     h1#o-que-e {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     p#texto {
-        width: 650px;
-        font-size: 25px;
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
     }
 
     div.duvidas {
         width: 100%;
         margin: 0 auto;
+        padding-bottom: 50px;
     }
 
     h1#duvidas {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     article {
-        width: 500px;
-        column-gap: 100px;
+        width: 300px;
+        column-gap: 70px;
         margin: 0 auto;
+        column-count: 2;
+        display: block;
+        justify-content: space-evenly;
     }
 
     article li {
         align-items: center;
-        justify-content: space-between;
-        margin: 0 auto;
+        display: inline-block;
+        margin-bottom: -50px;
     }
 
     article h2 {
-        font-size: 20px;
+        font-size: 17px;
         width: 150px;
     }
 
     article p {
         font-size: 13px;
-        width: 130px;
+        width: 150px;
+        height: 150px;
     }
 
     div.cta {
         width: 100%;
-        margin: 0 auto;
-        height: 1900px;
+        height: 2900px;
     }
 
     ul#cta {
@@ -600,58 +625,68 @@
     ul#cta li {
         width: 100%;
         margin: 0 auto;
-        top: 80px;
-        margin-bottom: -30px;
+        top: -450px;
         padding: 80px;
         align-items: center;
+        padding-bottom: 400px;
     }
 
     ul#cta li h1 {
         font-size: 30px;
-        width: 250px;
+        width: 100%;
         bottom: 25px;
+        text-align: center;
+        margin: 0 auto;
     }
 
     li#maos p,
     li#silhueta p,
     li#corpos p {
         font-size: 15px;
-        width: 250px;
+        width: 100%;
+        position: relative;
+        top: 350px;
+        align-items: center;
+        display: block;
+        justify-content: space-evenly;
+        margin: 0 auto;
     }
 
     li#maos img,
     li#silhueta img,
     li#corpos img {
-        width: 276px;
-        height: 248px;
-        margin-top: -450px;
-        margin-left: 50px;
+        width: 256px;
+        height: 228px;
+        top: 70px;
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     ul#cta li input {
-        width: 276px;
+        width: 256px;
         height: 45px;
         display: flex;
         position: relative;
+        top: -120px;
         justify-content: center;
-        float: right;
         align-items: center;
         text-align: center;
         font-size: 16px;
         margin: 0 auto;
-        top: -170px;
     }
 
 
     div.depoimentos {
         width: 100%;
         margin: 0 auto;
-        height: 3100px;
+        height: 780px;
     }
 
     div.depoimentos h1 {
         font-size: 45px;
-        width: 600px;
+        width: 380px;
     }
 
     .carrossel {
@@ -663,7 +698,9 @@
     }
 
     .carrossel img {
-        width: 680px;
+        width: 400px;
+        padding: 30px;
+        border-radius: 50px;
     }
 
     div.botoes-carrossel {
@@ -681,8 +718,8 @@
         height: 150px;
     }
 
-    footer ul{
-        margin-top: -50px;
+    footer ul {
+        margin-top: -20px;
     }
 
     footer img {
@@ -694,7 +731,9 @@
     }
 
     .copy p {
-        font-size: 14px;
+        width: 100%;
+        font-size: 12px;
+        margin-top: -20px;
         display: flex;
         position: relative;
         flex-direction: column;
@@ -704,9 +743,8 @@
 
     p#lucas {
         margin: 0 auto;
-        font-size: 12px;
+        font-size: 10px;
         top: 10px;
         opacity: 80%;
-        width: 300px;
     }
 }

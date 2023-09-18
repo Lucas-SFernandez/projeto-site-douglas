@@ -339,7 +339,6 @@ h1#duvidas {
     line-height: normal;
     padding-top: 50px;
     margin-bottom: 60px;
-    /* margin: 0 auto; */
 }
 
 article {
@@ -483,7 +482,7 @@ ul#cta p {
 
 div.depoimentos {
     background-color: #578394;
-    height: 3960px;
+    height: 1300px;
     margin: 0 auto;
     align-items: center;
 }
@@ -506,13 +505,34 @@ div.depoimentos {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+    z-index: -1;
 }
 
 .carrossel img {
     width: 930px;
-    margin: auto;
     padding: 50px;
+    display: flex;
+    margin: 0 auto;
     border-radius: 100px;
+}
+
+.carrossel .imagem{
+    object-fit: cover;
+    display: none;
+    animation: mudarimagem 0.7s;
+}
+
+.carrossel .imagem.ativa{
+    display: block;
+}
+
+@keyframes mudarimagem{
+    from{
+opacity: 0.85;
+    }
+    to{
+opacity: 1;
+    }
 }
 
 .botoes-carrossel{
