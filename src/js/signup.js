@@ -2,13 +2,13 @@ let btn = document.querySelector('#verSenha')
 let btnConfirm = document.querySelector('#verConfirmSenha')
 
 
+let email = document.querySelector('#email')
+let labelEmail = document.querySelector('#labelEmail')
+let validEmail = false
+
 let nome = document.querySelector('#nome')
 let labelNome = document.querySelector('#labelNome')
 let validNome = false
-
-let usuario = document.querySelector('#email')
-let labelUsuario = document.querySelector('#labelUsuario')
-let validUsuario = false
 
 let senha = document.querySelector('#senha')
 let labelSenha = document.querySelector('#labelSenha')
@@ -21,8 +21,22 @@ let validConfirmSenha = false
 let msgError = document.querySelector('#msgError')
 let msgSuccess = document.querySelector('#msgSuccess')
 
+email.addEventListener('keyup', () => {
+  if(email.value.length <= 2){
+    labelEmail.setAttribute('style', 'color: red')
+    labelEmail.innerHTML = 'Email *Insira no minimo 11 caracteres'
+    email.setAttribute('style', 'border-color: red')
+    validEmail = false
+  } else {
+    labelEmail.setAttribute('style', 'color: green')
+    labelEmail.innerHTML = 'Email'
+    email.setAttribute('style', 'border-color: green')
+    validEmail = true
+  }
+})
+
 nome.addEventListener('keyup', () => {
-  if(nome.value.length <= 2){
+  if(nome.value.length <= 4){
     labelNome.setAttribute('style', 'color: red')
     labelNome.innerHTML = 'Nome *Insira no minimo 3 caracteres'
     nome.setAttribute('style', 'border-color: red')
@@ -32,20 +46,6 @@ nome.addEventListener('keyup', () => {
     labelNome.innerHTML = 'Nome'
     nome.setAttribute('style', 'border-color: green')
     validNome = true
-  }
-})
-
-usuario.addEventListener('keyup', () => {
-  if(usuario.value.length <= 4){
-    labelUsuario.setAttribute('style', 'color: red')
-    labelUsuario.innerHTML = 'Usuário *Insira no minimo 5 caracteres'
-    usuario.setAttribute('style', 'border-color: red')
-    validUsuario = false
-  } else {
-    labelUsuario.setAttribute('style', 'color: green')
-    labelUsuario.innerHTML = 'Usuário'
-    usuario.setAttribute('style', 'border-color: green')
-    validUsuario = true
   }
 })
 
@@ -78,22 +78,21 @@ confirmSenha.addEventListener('keyup', () => {
 })
 
 function cadastrar(){
-  if(validNome && validUsuario && validSenha && validConfirmSenha){
-    let listaUser = JSON.parse(localStorage.getItem('listaUser') || '[]')
+  if(validEmail && validNome && validSenha && validConfirmSenha){
+    let listaEmail = JSON.parse(localStorage.getItem('listaEmail') || '[]')
     
-    listaUser.push(
+    listaEmail.push(
     {
+      emailCad: email.value,
       nomeCad: nome.value,
-      userCad: usuario.value,
       senhaCad: senha.value
     }
     )
     
-    localStorage.setItem('listaUser', JSON.stringify(listaUser))
+    localStorage.setItem('listaEmail', JSON.stringify(listaEmail))
     
-   
     msgSuccess.setAttribute('style', 'display: block')
-    msgSuccess.innerHTML = '<strong>Cadastrando usuário...</strong>'
+    msgSuccess.innerHTML = '<strong>Cadastrando email...</strong>'
     msgError.setAttribute('style', 'display: none')
     msgError.innerHTML = ''
     

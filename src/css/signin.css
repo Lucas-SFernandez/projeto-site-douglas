@@ -54,13 +54,13 @@ h1 {
     color: #603B94;
 }
 
-#userLabel,
+#emailLabel,
 #senhaLabel {
     font-family: Alatsi;
     font-size: 15px;
 }
 
-#usuario,
+#email,
 #senha {
     border-radius: 0px;
     height: 20px;
@@ -91,7 +91,6 @@ h1 {
 .label-float input:valid+label {
     font-size: 13px;
     margin-top: 0;
-    color: #ffffff
 }
 
 .label-float input:focus {

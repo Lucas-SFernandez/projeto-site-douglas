@@ -7,11 +7,11 @@
 
     div.card {
         width: 500px;
-        height: 400px;
+        height: 500px;
     }
 
     .label-float {
-        width: 241px;
+        width: 300px;
         padding-top: 20px;
         padding-bottom: 20px;
         padding-left: 60px;
@@ -27,15 +27,26 @@
 
     div.card {
         width: 400px;
-        height: 400px;
+        height: 520px;
     }
 
     .label-float {
         width: 241px;
-        padding-top: 20px;
+        padding-top: 10px;
+        margin-top: -20px;
         padding-bottom: 20px;
         padding-left: 40px;
     }
+
+    #labelNome,
+    #labelSenha,
+    #labelEmail,
+    #labelConfirmSenha {
+        font-family: Alatsi;
+        font-size: 15px;
+        display: block;
+    }
+
 }
 
 @media (max-width: 425px) {
@@ -47,14 +58,28 @@
 
     div.card {
         width: 300px;
-        height: 380px;
+        height: 500px;
     }
 
     .label-float {
         width: 241px;
         padding-top: 10px;
+        margin-top: -20px;
         padding-bottom: 20px;
         padding-left: 40px;
+    }
+
+    #labelNome,
+    #labelSenha,
+    #labelEmail,
+    #labelConfirmSenha {
+        font-family: Alatsi;
+        font-size: 15px;
+        display: block;
+    }
+
+    button {
+        margin-top: -10px;
     }
 }
 
@@ -67,13 +92,27 @@
 
     div.card {
         width: 300px;
-        height: 380px;
+        height: 500px;
     }
 
     .label-float {
         width: 241px;
         padding-top: 10px;
+        margin-top: -20px;
         padding-bottom: 20px;
         padding-left: 40px;
+    }
+
+    #labelNome,
+    #labelSenha,
+    #labelEmail,
+    #labelConfirmSenha {
+        font-family: Alatsi;
+        font-size: 15px;
+        display: block;
+    }
+
+    button {
+        margin-top: -10px;
     }
 }
