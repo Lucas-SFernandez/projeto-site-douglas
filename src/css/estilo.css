@@ -235,7 +235,7 @@ div.luis::before {
     inset: 0;
     flex-direction: column;
     justify-content: center;
-    background-image: url('/src/imagens/20.png');
+    background-image: url(../imagens/20.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
