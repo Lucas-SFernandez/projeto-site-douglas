@@ -748,3 +748,319 @@
         opacity: 80%;
     }
 }
+
+@media (max-width: 375px) {
+    body {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+        height: 100%;
+        width: 100%;
+    }
+
+    div.cor-de-fundo {
+        width: 100%;
+        height: 500px;
+    }
+
+    div#background {
+        width: 100%;
+        height: 688px;
+    }
+
+    .fonte-cabecalho {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    h1#titulo-cabecalho {
+        font-size: 40px;
+        align-items: center;
+    }
+
+    h2#sub-titulo-cabecalho {
+        font-size: 25px;
+        align-items: center;
+    }
+
+    img#foto-cabecalho {
+        width: 200px;
+        height: 200px;
+    }
+
+    nav {
+        column-count: 2;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+
+    ul.cards {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding: 20px 20px;
+        width: 190px;
+    }
+
+    ul.cards li {
+        top: 20px;
+        bottom: 20px;
+        display: flex;
+        position: relative;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 150px;
+    }
+
+    img#meridianos,
+    img#prosperidade,
+    img#bem-estar,
+    img#afetivas {
+        width: 80.964px;
+        height: 80.964px;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        justify-content: space-evenly;
+    }
+
+    nav h1 {
+        font-size: 16px;
+    }
+
+    nav p {
+        font-size: 11px;
+    }
+
+    .sobre-mim {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    img#foto-luis {
+        width: 220px;
+        height: 220px;
+    }
+
+    hgroup h1#luis {
+        font-size: 45px;
+    }
+
+    hgroup h2#sub-titulo-luis {
+        font-size: 28px;
+    }
+
+    div p#text-luis {
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    div.apometria {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1#o-que-e {
+        font-size: 45px;
+    }
+
+    p#texto {
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    div.duvidas {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    h1#duvidas {
+        font-size: 45px;
+    }
+
+    article {
+        width: 250px;
+        column-gap: 50px;
+        margin: 0 auto;
+        column-count: 2;
+        display: block;
+        justify-content: space-evenly;
+    }
+
+    article li {
+        align-items: center;
+        display: inline-block;
+        margin-bottom: -50px;
+        padding-bottom: 60px;
+    }
+
+    article h2 {
+        font-size: 17px;
+        width: 120px;
+    }
+
+    article p {
+        font-size: 13px;
+        width: 110px;
+        margin-top: -10px;
+    }
+
+    div.cta {
+        width: 100%;
+        height: 3000px;
+    }
+
+    ul#cta {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    ul#cta li {
+        width: 100%;
+        margin: 0 auto;
+        top: -580px;
+        padding: 70px;
+        align-items: center;
+        padding-bottom: 380px;
+    }
+
+    ul#cta li h1 {
+        font-size: 30px;
+        width: 100%;
+        bottom: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    li#maos p,
+    li#silhueta p,
+    li#corpos p {
+        font-size: 15px;
+        width: 100%;
+        position: relative;
+        top: 350px;
+        align-items: center;
+        display: block;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    li#maos img,
+    li#silhueta img,
+    li#corpos img {
+        width: 256px;
+        height: 228px;
+        margin-top: -500px;
+        left: 50px;
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 30px;
+    }
+
+    ul#cta li input {
+        width: 256px;
+        height: 45px;
+        display: flex;
+        position: relative;
+        left: 50px;
+        top: -180px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+        margin-right: 30px;
+    }
+
+
+    div.depoimentos {
+        width: 100%;
+        margin: 0 auto;
+        height: 780px;
+    }
+
+    div.depoimentos h1 {
+        font-size: 45px;
+        width: 360px;
+    }
+
+    .carrossel {
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+
+    .carrossel img {
+        width: 380px;
+        padding: 30px;
+        border-radius: 50px;
+    }
+
+    div.botoes-carrossel {
+        width: 100%;
+    }
+
+
+    div.botoes-carrossel .botao {
+        width: 15px;
+        height: 15px;
+    }
+
+    footer {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer ul {
+        margin-top: -20px;
+    }
+
+    footer img {
+        width: 30px;
+    }
+
+    img#facebook {
+        width: 40px;
+    }
+
+    .copy p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: -20px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    p#lucas {
+        margin: 0 auto;
+        font-size: 10px;
+        top: 10px;
+        opacity: 80%;
+    }
+}
