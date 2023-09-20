@@ -613,7 +613,7 @@
 
     div.cta {
         width: 100%;
-        height: 2900px;
+        height: 3000px;
     }
 
     ul#cta {
@@ -749,6 +749,707 @@
     }
 }
 
+@media (max-width: 414px) {
+    body {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+        height: 100%;
+        width: 100%;
+    }
+
+    div.login{
+        top: 130px;
+    }
+
+    div.cor-de-fundo {
+        width: 100%;
+        height: 500px;
+    }
+
+    div#background {
+        width: 100%;
+        height: 688px;
+    }
+
+    .fonte-cabecalho {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    h1#titulo-cabecalho {
+        font-size: 40px;
+        align-items: center;
+    }
+
+    h2#sub-titulo-cabecalho {
+        font-size: 25px;
+        align-items: center;
+    }
+
+    img#foto-cabecalho {
+        width: 200px;
+        height: 200px;
+    }
+
+    nav {
+        column-count: 2;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+
+    ul.cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding: 0px 0px;
+        right: 5px;
+    }
+
+    ul.cards li {
+        top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+
+    img#meridianos,
+    img#prosperidade,
+    img#bem-estar,
+    img#afetivas {
+        width: 80.964px;
+        height: 80.964px;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        justify-content: space-evenly;
+    }
+
+    li#img1 {
+        top: 50px;
+        margin-bottom: 0px;
+    }
+
+    img#meridianos {
+        top: 0px;
+    }
+
+    li#img2 {
+        top: 50px;
+    }
+
+    li#img4 {
+        margin-top: -40px;
+    }
+
+    nav h1 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    nav p {
+        font-size: 11px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .sobre-mim {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    img#foto-luis {
+        width: 220px;
+        height: 220px;
+    }
+
+    hgroup h1#luis {
+        font-size: 45px;
+    }
+
+    hgroup h2#sub-titulo-luis {
+        font-size: 28px;
+    }
+
+    div p#text-luis {
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    div.apometria {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1#o-que-e {
+        font-size: 45px;
+    }
+
+    p#texto {
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    div.duvidas {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    h1#duvidas {
+        font-size: 45px;
+    }
+
+    article {
+        width: 250px;
+        column-gap: 50px;
+        margin: 0 auto;
+        column-count: 2;
+        display: block;
+        justify-content: space-evenly;
+    }
+
+    article li {
+        align-items: center;
+        display: inline-block;
+        margin-bottom: -50px;
+        padding-bottom: 60px;
+    }
+
+    article h2 {
+        font-size: 17px;
+        width: 120px;
+    }
+
+    article p {
+        font-size: 13px;
+        width: 110px;
+        margin-top: -10px;
+    }
+
+    div.cta {
+        width: 100%;
+        height: 2800px;
+    }
+
+    ul#cta {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    ul#cta li {
+        width: 100%;
+        margin: 0 auto;
+        top: -430px;
+        padding: 70px;
+        align-items: center;
+        padding-bottom: 380px;
+    }
+
+    ul#cta li h1 {
+        font-size: 30px;
+        width: 100%;
+        bottom: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    li#maos p,
+    li#silhueta p,
+    li#corpos p {
+        font-size: 15px;
+        width: 100%;
+        position: relative;
+        top: 350px;
+        align-items: center;
+        display: block;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    li#maos img,
+    li#silhueta img,
+    li#corpos img {
+        width: 256px;
+        height: 228px;
+        margin-top: -450px;
+        left: 30px;
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 30px;
+    }
+
+    ul#cta li input {
+        width: 256px;
+        height: 45px;
+        display: flex;
+        position: relative;
+        left: 30px;
+        top: -130px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+        margin-right: 30px;
+    }
+
+    li#corpos img {
+        margin-top: -400px;
+    }
+
+    ul#cta #corpos-botao{
+        top: -80px;
+    }
+
+    li#silhueta img {
+        margin-top: -435px;
+    }
+
+    ul#cta #silhueta-botao{
+        top: -120px;
+    }
+
+
+    div.depoimentos {
+        width: 100%;
+        margin: 0 auto;
+        height: 780px;
+    }
+
+    div.depoimentos h1 {
+        font-size: 45px;
+        width: 330px;
+    }
+
+    .carrossel {
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+
+    .carrossel img {
+        width: 100%;
+        padding: 30px;
+        border-radius: 50px;
+    }
+
+    div.botoes-carrossel {
+        width: 100%;
+    }
+
+
+    div.botoes-carrossel .botao {
+        width: 15px;
+        height: 15px;
+    }
+
+    footer {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer ul {
+        margin-top: -20px;
+    }
+
+    footer img {
+        width: 30px;
+    }
+
+    img#facebook {
+        width: 40px;
+    }
+
+    .copy p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: -20px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    p#lucas {
+        margin: 0 auto;
+        font-size: 10px;
+        top: 10px;
+        opacity: 80%;
+    }
+}
+
+@media (max-width: 395px) {
+    body {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+        height: 100%;
+        width: 100%;
+    }
+
+    div.cor-de-fundo {
+        width: 100%;
+        height: 500px;
+    }
+
+    div#background {
+        width: 100%;
+        height: 688px;
+    }
+
+    .fonte-cabecalho {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    h1#titulo-cabecalho {
+        font-size: 40px;
+        align-items: center;
+    }
+
+    h2#sub-titulo-cabecalho {
+        font-size: 25px;
+        align-items: center;
+    }
+
+    img#foto-cabecalho {
+        width: 200px;
+        height: 200px;
+    }
+
+    nav {
+        column-count: 2;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+
+    ul.cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding: 0px 0px;
+        right: 10px;
+        /* left: -19px; */
+    }
+
+    ul.cards li {
+        top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+
+    img#meridianos,
+    img#prosperidade,
+    img#bem-estar,
+    img#afetivas {
+        width: 80.964px;
+        height: 80.964px;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        justify-content: space-evenly;
+    }
+
+    li#img1 {
+        top: 50px;
+        margin-bottom: 0px;
+    }
+
+    img#meridianos {
+        top: 0px;
+    }
+
+    li#img2 {
+        top: 50px;
+    }
+
+    li#img4 {
+        margin-top: -40px;
+    }
+
+    nav h1 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    nav p {
+        font-size: 11px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .sobre-mim {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    img#foto-luis {
+        width: 220px;
+        height: 220px;
+    }
+
+    hgroup h1#luis {
+        font-size: 45px;
+    }
+
+    hgroup h2#sub-titulo-luis {
+        font-size: 28px;
+    }
+
+    div p#text-luis {
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    div.apometria {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1#o-que-e {
+        font-size: 45px;
+    }
+
+    p#texto {
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    div.duvidas {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    h1#duvidas {
+        font-size: 45px;
+    }
+
+    article {
+        width: 250px;
+        column-gap: 50px;
+        margin: 0 auto;
+        column-count: 2;
+        display: block;
+        justify-content: space-evenly;
+    }
+
+    article li {
+        align-items: center;
+        display: inline-block;
+        margin-bottom: -50px;
+        padding-bottom: 60px;
+    }
+
+    article h2 {
+        font-size: 17px;
+        width: 120px;
+    }
+
+    article p {
+        font-size: 13px;
+        width: 110px;
+        margin-top: -10px;
+    }
+
+    div.cta {
+        width: 100%;
+        height: 2900px;
+    }
+
+    ul#cta {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    ul#cta li {
+        width: 100%;
+        margin: 0 auto;
+        top: -500px;
+        padding: 70px;
+        align-items: center;
+        padding-bottom: 380px;
+    }
+
+    ul#cta li h1 {
+        font-size: 30px;
+        width: 100%;
+        bottom: 25px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    li#maos p,
+    li#silhueta p,
+    li#corpos p {
+        font-size: 15px;
+        width: 100%;
+        position: relative;
+        top: 350px;
+        align-items: center;
+        display: block;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    li#maos img,
+    li#silhueta img,
+    li#corpos img {
+        width: 256px;
+        height: 228px;
+        margin-top: -450px;
+        left: 45px;
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 30px;
+    }
+
+    ul#cta li input {
+        width: 256px;
+        height: 45px;
+        display: flex;
+        position: relative;
+        left: 45px;
+        top: -130px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+        margin-right: 30px;
+    }
+
+    li#corpos img {
+        margin-top: -470px;
+    }
+
+
+    div.depoimentos {
+        width: 100%;
+        margin: 0 auto;
+        height: 780px;
+    }
+
+    div.depoimentos h1 {
+        font-size: 45px;
+        width: 330px;
+    }
+
+    .carrossel {
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+
+    .carrossel img {
+        width: 100%;
+        padding: 30px;
+        border-radius: 50px;
+    }
+
+    div.botoes-carrossel {
+        width: 100%;
+    }
+
+
+    div.botoes-carrossel .botao {
+        width: 15px;
+        height: 15px;
+    }
+
+    footer {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer ul {
+        margin-top: -20px;
+    }
+
+    footer img {
+        width: 30px;
+    }
+
+    img#facebook {
+        width: 40px;
+    }
+
+    .copy p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: -20px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    p#lucas {
+        margin: 0 auto;
+        font-size: 10px;
+        top: 10px;
+        opacity: 80%;
+    }
+}
+
 @media (max-width: 375px) {
     body {
         margin: 0 auto;
@@ -806,22 +1507,23 @@
 
     ul.cards {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
         position: relative;
-        padding: 20px 20px;
-        width: 190px;
+        padding: 0px 0px;
+        right: 20px;
+        left: -19px;
     }
 
     ul.cards li {
-        top: 20px;
-        bottom: 20px;
+        top: 30px;
+        margin-bottom: 30px;
         display: flex;
         position: relative;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
-        width: 150px;
+        width: 100px;
     }
 
     img#meridianos,
@@ -836,12 +1538,34 @@
         justify-content: space-evenly;
     }
 
+    li#img1 {
+        top: 50px;
+        margin-bottom: 0px;
+    }
+
+    img#meridianos {
+        top: 0px;
+    }
+
+    li#img2 {
+        top: 50px;
+    }
+
+    li#img4 {
+        margin-top: -40px;
+    }
+
     nav h1 {
         font-size: 16px;
+        width: 100%;
     }
 
     nav p {
         font-size: 11px;
+    }
+
+    main {
+        width: 100%;
     }
 
     .sobre-mim {
@@ -948,6 +1672,7 @@
         bottom: 25px;
         text-align: center;
         margin: 0 auto;
+        align-items: center;
     }
 
 
@@ -970,7 +1695,7 @@
         width: 256px;
         height: 228px;
         margin-top: -500px;
-        left: 50px;
+        left: 55px;
         position: relative;
         align-items: center;
         display: flex;
@@ -983,7 +1708,7 @@
         height: 45px;
         display: flex;
         position: relative;
-        left: 50px;
+        left: 55px;
         top: -180px;
         justify-content: center;
         align-items: center;
@@ -991,6 +1716,22 @@
         font-size: 16px;
         margin: 0 auto;
         margin-right: 30px;
+    }
+
+    li#corpos img {
+        margin-top: -540px;
+    }
+
+    ul#cta #corpos-botao{
+        top: -220px;
+    }
+
+    li#silhueta img {
+        margin-top: -480px;
+    }
+
+    ul#cta #silhueta-botao{
+        top: -160px;
     }
 
 
@@ -1002,7 +1743,7 @@
 
     div.depoimentos h1 {
         font-size: 45px;
-        width: 360px;
+        width: 330px;
     }
 
     .carrossel {
@@ -1014,7 +1755,363 @@
     }
 
     .carrossel img {
-        width: 380px;
+        width: 100%;
+        padding: 30px;
+        border-radius: 50px;
+    }
+
+    div.botoes-carrossel {
+        width: 100%;
+    }
+
+
+    div.botoes-carrossel .botao {
+        width: 15px;
+        height: 15px;
+    }
+
+    footer {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer ul {
+        margin-top: -20px;
+    }
+
+    footer img {
+        width: 30px;
+    }
+
+    img#facebook {
+        width: 40px;
+    }
+
+    .copy p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: -20px;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    p#lucas {
+        margin: 0 auto;
+        font-size: 10px;
+        top: 10px;
+        opacity: 80%;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    header {
+        height: 100%;
+        width: 100%;
+    }
+
+    div.cor-de-fundo {
+        width: 100%;
+        height: 500px;
+    }
+
+    div#background {
+        width: 100%;
+        height: 688px;
+    }
+
+    .fonte-cabecalho {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    h1#titulo-cabecalho {
+        font-size: 40px;
+        align-items: center;
+    }
+
+    h2#sub-titulo-cabecalho {
+        font-size: 25px;
+        align-items: center;
+    }
+
+    img#foto-cabecalho {
+        width: 200px;
+        height: 200px;
+    }
+
+    nav {
+        column-count: 2;
+        width: 100%;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 30px;
+    }
+
+    ul.cards {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        padding: 0px 0px;
+        left: -30px;
+    }
+
+    ul.cards li {
+        top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        left: 20px;
+    }
+
+    img#meridianos,
+    img#prosperidade,
+    img#bem-estar,
+    img#afetivas {
+        width: 80.964px;
+        height: 80.964px;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        justify-content: space-evenly;
+    }
+
+    li#img1 {
+        top: 50px;
+        margin-bottom: 0px;
+    }
+
+    img#meridianos {
+        top: 0px;
+    }
+
+    li#img2 {
+        top: 50px;
+    }
+
+    li#img4 {
+        margin-top: -40px;
+    }
+
+    nav h1 {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    nav p {
+        font-size: 11px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .sobre-mim {
+        height: 100%;
+        padding-bottom: 30px;
+    }
+
+    img#foto-luis {
+        width: 220px;
+        height: 220px;
+    }
+
+    hgroup h1#luis {
+        font-size: 45px;
+    }
+
+    hgroup h2#sub-titulo-luis {
+        font-size: 28px;
+    }
+
+    div p#text-luis {
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    div.apometria {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    h1#o-que-e {
+        font-size: 45px;
+    }
+
+    p#texto {
+        width: 325px;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    div.duvidas {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+
+    h1#duvidas {
+        font-size: 45px;
+    }
+
+    article {
+        width: 250px;
+        column-gap: 50px;
+        margin: 0 auto;
+        column-count: 2;
+        display: block;
+        justify-content: space-evenly;
+    }
+
+    article li {
+        align-items: center;
+        display: inline-block;
+        margin-bottom: -50px;
+        padding-bottom: 60px;
+    }
+
+    article h2 {
+        font-size: 17px;
+        width: 120px;
+    }
+
+    article p {
+        font-size: 13px;
+        width: 110px;
+        margin-top: -10px;
+    }
+
+    div.cta {
+        width: 100%;
+        height: 3000px;
+    }
+
+    ul#cta {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    ul#cta li {
+        width: 100%;
+        margin: 0 auto;
+        top: -580px;
+        padding: 70px;
+        align-items: center;
+        padding-bottom: 380px;
+    }
+
+    ul#cta li h1 {
+        font-size: 30px;
+        width: 100%;
+        bottom: 25px;
+        text-align: center;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+
+    li#maos p,
+    li#silhueta p,
+    li#corpos p {
+        font-size: 15px;
+        width: 100%;
+        position: relative;
+        top: 350px;
+        align-items: center;
+        display: block;
+        justify-content: space-evenly;
+        margin: 0 auto;
+    }
+
+    li#maos img,
+    li#silhueta img,
+    li#corpos img {
+        width: 256px;
+        height: 228px;
+        margin-top: -500px;
+        left: 55px;
+        position: relative;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 30px;
+    }
+
+    ul#cta li input {
+        width: 256px;
+        height: 45px;
+        display: flex;
+        position: relative;
+        left: 55px;
+        top: -180px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+        margin-right: 30px;
+    }
+
+    li#corpos img {
+        margin-top: -540px;
+    }
+
+    ul#cta #corpos-botao{
+        top: -220px;
+    }
+
+    li#silhueta img {
+        margin-top: -480px;
+    }
+
+    ul#cta #silhueta-botao{
+        top: -160px;
+    }
+
+
+    div.depoimentos {
+        width: 100%;
+        margin: 0 auto;
+        height: 780px;
+    }
+
+    div.depoimentos h1 {
+        font-size: 45px;
+        width: 330px;
+    }
+
+    .carrossel {
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: -50px;
+    }
+
+    .carrossel img {
+        width: 100%;
         padding: 30px;
         border-radius: 50px;
     }
