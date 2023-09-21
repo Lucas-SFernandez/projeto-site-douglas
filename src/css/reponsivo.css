@@ -438,7 +438,7 @@
     }
 }
 
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     body {
         margin: 0 auto;
         width: 100%;
@@ -1450,7 +1450,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
     body {
         margin: 0 auto;
         width: 100%;
@@ -2160,4 +2160,4 @@
         top: 10px;
         opacity: 80%;
     }
-}
+} */
