@@ -26,13 +26,10 @@ div.login{
     height: 80px;
     background-color: #24647D;
     opacity: 50%;
-    margin-right: 10px;
-    margin-top: -225px;
     position: absolute;
 }
 
 input#login {
-    
     font-size: 20px;
     font-family: Barlow Condensed;
     font-style: normal;
@@ -92,12 +89,10 @@ div.cabecalho {
 }
 
 div#background {
-    display: flex;
-    position: relative;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    position: absolute;
     width: 100%;
+    margin-top: 0;
+    top: 0%;
 }
 
 div#background::before {
@@ -106,7 +101,7 @@ div#background::before {
     inset: 0;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../imagens/adulto-segurando-bola-de-luz.jpg);
+    background-image: url('/src/imagens/adulto-segurando-bola-de-luz.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -116,6 +111,8 @@ div#background::before {
 
 div.cor-de-fundo {
     background-color: #24647D;
+    width: 100%;
+    height: 100%;
 }
 
 img#meridianos {
@@ -226,6 +223,7 @@ div.luis {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    height: 100%;
     background-color: #603B94;
 }
 
@@ -235,12 +233,17 @@ div.luis::before {
     inset: 0;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../imagens/20.png);
+    background-image: url('/src/imagens/20.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     opacity: 30%;
     z-index: 0;
+}
+
+div.sobre-mim{
+    height: 100%;
+    padding-bottom: 30px;
 }
 
 img#foto-luis {
@@ -279,6 +282,7 @@ div.apometria {
     flex-direction: column;
     justify-content: center;
     width: 100%;
+    height: 100%;
 }
 
 div.apometria::before {
@@ -287,7 +291,7 @@ div.apometria::before {
     inset: 0;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../imagens/fotonoticia_20200428162622_420.jpg);
+    background-image: url('/src/imagens/fotonoticia_20200428162622_420.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -335,6 +339,7 @@ p#texto {
 div.duvidas {
     background-color: #77B2C9;
     width: 100%;
+    height: 100%;
     display: flex;
     position: relative;
     align-items: center;
@@ -350,7 +355,7 @@ div.duvidas::before {
     inset: 0;
     flex-direction: column;
     justify-content: center;
-    background-image: url(../imagens/712.png);
+    background-image: url('/src/imagens/712.png');
     background-repeat: round;
     background-size: contain;
     background-position: bottom;
@@ -416,7 +421,7 @@ div.cta {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 2600px;
+    height: 100%;
 }
 
 div.cta::before {
@@ -424,7 +429,7 @@ div.cta::before {
     position: absolute;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/universo-colorido-refletida-na-agua.jpg);
+    background-image: url('/src/imagens/universo-colorido-refletida-na-agua.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -436,8 +441,8 @@ ul#cta {
     grid-column: auto;
     align-items: center;
     position: relative;
-    height: 1850px;
-    margin-top: -750px;
+    margin: 0 auto;
+    width: 90%;
 }
 
 ul#cta li {
@@ -459,8 +464,6 @@ ul#cta li input {
     justify-content: space-evenly;
     float: right;
     align-items: center;
-    margin: 30px;
-    margin-bottom: 100px;
     color: #FFFFFF;
     text-align: center;
     font-family: Alfa Slab One;
@@ -477,8 +480,8 @@ ul#cta img {
     align-items: center;
     justify-content: space-evenly;
     display: flex;
-    width: 546px;
-    height: 478px;
+    width: 446px;
+    height: 378px;
     border-radius: 30px;
     border: 10px solid #24647D;
     background: lightgray -84.09px 0px / 131.352% 100% no-repeat;
@@ -496,7 +499,7 @@ ul#cta li h1 {
     line-height: normal;
     justify-content: center;
     position: relative;
-    width: 595px;
+    width: 495px;
 }
 
 ul#cta p {
@@ -506,12 +509,12 @@ ul#cta p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 500px;
+    width: 400px;
 }
 
 div.depoimentos {
     background-color: #578394;
-    height: 1300px;
+    height: 100%;
     margin: 0 auto;
     align-items: center;
 }
@@ -542,7 +545,7 @@ div.depoimentos {
     padding: 50px;
     display: flex;
     margin: 0 auto;
-    border-radius: 100px;
+    border-radius: 60px;
 }
 
 .carrossel .imagem {
@@ -569,6 +572,7 @@ div.depoimentos {
     display: flex;
     justify-content: center;
     gap: 17px;
+    padding-bottom: 30px;
 }
 
 .botoes-carrossel .botao {
@@ -591,7 +595,6 @@ div.depoimentos {
 
 footer {
     background-color: #24647D;
-
     display: flex;
     position: relative;
     align-items: center;
@@ -605,7 +608,7 @@ footer::before {
     position: absolute;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/97d4253d79a9e59f19df904136673fc9-icone-de-flor-de-orquidea00.png);
+    background-image: url('/src/imagens/97d4253d79a9e59f19df904136673fc9-icone-de-flor-de-orquidea00.png');
     background-repeat: repeat;
     background-size: contain;
     background-position: bottom;
