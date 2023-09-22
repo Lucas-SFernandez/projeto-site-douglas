@@ -450,6 +450,7 @@ ul#cta li {
     position: relative;
     width: 80%;
     margin: 0 auto;
+    display: block;
 }
 
 ul#cta li input {
@@ -459,31 +460,31 @@ ul#cta li input {
     background: #603B94;
     width: 446px;
     height: 45px;
-    justify-content: space-evenly;
     color: #FFFFFF;
     font-family: Alfa Slab One;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    float: right;
     margin: 0 auto;
-    margin-top: 100px;
-    margin-left: 150px;
-
+    margin-left: 200px;
+    margin-top: 50px;
 }
 
 ul#cta img {
-    float: right;
     position: relative;
     align-items: center;
-    justify-content: space-evenly;
     display: block;
     width: 446px;
     height: 378px;
     border-radius: 30px;
     border: 10px solid #24647D;
     background: lightgray -84.09px 0px / 131.352% 100% no-repeat;
+}
+
+ul#cta img,
+ul#cta li input{
+    float: right;
 }
 
 ul#cta li h1 {
