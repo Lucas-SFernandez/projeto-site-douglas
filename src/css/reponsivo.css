@@ -601,15 +601,16 @@
         text-align: center;
     }
 
+
     h1#titulo-cabecalho {
         font-size: 40px;
         margin-top: 10%;
-        width: 90%;
+        width: 100%;
     }
 
     h2#sub-titulo-cabecalho {
         font-size: 25px;
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
 
