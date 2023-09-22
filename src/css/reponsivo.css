@@ -28,12 +28,14 @@
     }
 
     h1#titulo-cabecalho {
-        font-size: 40px;
+        font-size: 60px;
+        /* width: 80%; */
     }
 
     h2#sub-titulo-cabecalho {
-        font-size: 25px;
+        font-size: 40px;
         text-align: center;
+        /* width: 80%; */
     }
 
     img#foto-cabecalho {
