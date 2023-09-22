@@ -50,8 +50,12 @@ h1 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    position: static;
+    margin-top: 10%;
     color: #603B94;
+}
+
+p{
+    margin-top: 5%;
 }
 
 #labelNome,
@@ -81,11 +85,11 @@ h1 {
 }
 
 .label-float {
-    width: 350px;
-    padding-top: 20px;
+    width: 100%;
+    padding-top: 30px;
     padding-bottom: 20px;
+    margin: 0 auto;
     padding-left: 150px;
-    align-items: center;
 }
 
 .label-float label {
