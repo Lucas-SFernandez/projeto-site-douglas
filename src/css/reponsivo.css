@@ -810,8 +810,15 @@
     }
 
     .carrossel img {
-        width: 340px;
-        padding: 10%;
+        width: 80%;
+        border-radius: 30px;
+        padding: 6%;
+        transition: 0.5s ease-in-out
+        ;
+    }
+
+    .carrossel img:hover {
+        transform: scale(1.45);
     }
 
     div.botoes-carrossel {
