@@ -50,8 +50,12 @@ h1 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    position: static;
+    margin-top: 10%;
     color: #603B94;
+}
+
+p{
+    margin-top: 5%;
 }
 
 #emailLabel,
@@ -73,10 +77,11 @@ h1 {
 }
 
 .label-float {
-    width: 241px;
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 20px;
-    padding-left: 60px;
+    margin: 0 auto;
+    padding-left: 150px;
 }
 
 .label-float label {
