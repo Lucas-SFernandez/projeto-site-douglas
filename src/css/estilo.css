@@ -450,7 +450,8 @@ ul#cta li {
     position: relative;
     width: 80%;
     margin: 0 auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 ul#cta li input {
@@ -466,25 +467,25 @@ ul#cta li input {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin: 0 auto;
-    margin-left: 200px;
-    margin-top: 50px;
+    left: 82%;
+    top: 100px;
 }
 
 ul#cta img {
-    position: relative;
-    align-items: center;
-    display: block;
     width: 446px;
     height: 378px;
     border-radius: 30px;
     border: 10px solid #24647D;
     background: lightgray -84.09px 0px / 131.352% 100% no-repeat;
+    left: 35%;
+    bottom: 30px;
+    top: 60px;
 }
 
 ul#cta img,
 ul#cta li input{
-    float: right;
+    position: relative;
+    margin: 0 auto;
 }
 
 ul#cta li h1 {
@@ -499,6 +500,7 @@ ul#cta li h1 {
     position: relative;
     width: 495px;
     padding: 15% 0% 0% 0%;
+    margin-left: -40%;
 }
 
 ul#cta p {
@@ -509,6 +511,8 @@ ul#cta p {
     font-weight: 400;
     line-height: normal;
     width: 400px;
+    margin-top: -35%;
+    margin-left: -48%;
 }
 
 div.depoimentos {

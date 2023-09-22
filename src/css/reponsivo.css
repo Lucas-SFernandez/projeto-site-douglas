@@ -297,8 +297,8 @@
 
 
     div#background {
-            margin-top: 0;
-            top: 0%;
+        margin-top: 0;
+        top: 0%;
     }
 
     #fonte-cabecalho {
@@ -478,7 +478,7 @@
         font-size: 15px;
         width: 80%;
         height: 100%;
-        padding-top: 120%;
+        padding-top: 15%;
         margin: 0 auto;
     }
 
@@ -489,6 +489,9 @@
         height: 248px;
         margin: 0 auto;
         right: 10px;
+        left: 8%;
+        bottom: 0px;
+        top: 0px;
     }
 
     ul#cta li input {
@@ -497,6 +500,8 @@
         margin-top: 10%;
         font-size: 18px;
         right: 2%;
+        left: 8%;
+        top: 0px;
     }
 
 
@@ -520,8 +525,7 @@
     .carrossel img {
         width: 360px;
         padding: 10%;
-        transition: 0.5s ease-in-out
-        ;
+        transition: 0.5s ease-in-out;
     }
 
     .carrossel img:hover {
@@ -589,8 +593,8 @@
 
 
     div#background {
-            margin-top: 0;
-            top: 0%;
+        margin-top: 0;
+        top: 0%;
     }
 
     #fonte-cabecalho {
@@ -761,7 +765,9 @@
         width: 100%;
         margin: 0;
         text-align: center;
-        padding: 10%;
+        padding: 0%;
+        text-align: center;
+        margin-bottom: 10%;
     }
 
     li#maos p,
@@ -770,7 +776,7 @@
         font-size: 15px;
         width: 80%;
         height: 100%;
-        padding-top: 120%;
+        padding-top: 20%;
         margin: 0 auto;
     }
 
@@ -781,6 +787,9 @@
         height: 248px;
         margin: 0 auto;
         right: 10px;
+        left: 0%;
+        bottom: 0px;
+        top: 0px;
     }
 
     ul#cta li input {
@@ -789,6 +798,8 @@
         margin-top: 10%;
         font-size: 18px;
         right: 2%;
+        left: 0%;
+        top: 0px;
     }
 
 
@@ -813,8 +824,7 @@
         width: 80%;
         border-radius: 30px;
         padding: 6%;
-        transition: 0.5s ease-in-out
-        ;
+        transition: 0.5s ease-in-out;
     }
 
     .carrossel img:hover {
