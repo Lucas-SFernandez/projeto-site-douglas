@@ -244,6 +244,8 @@ div.luis::before {
 div.sobre-mim{
     height: 100%;
     padding-bottom: 30px;
+    margin-top: 0;
+    top: 0%;
 }
 
 img#foto-luis {
@@ -270,8 +272,8 @@ p#text-luis {
     position: relative;
     margin: 0 auto;
     top: 200px;
-    width: 1240px;
-    height: 801px;
+    width: 80%;
+    height: 100vh;
 }
 
 div.apometria {
@@ -416,12 +418,13 @@ ul.alinhar {
 
 div.cta {
     background-color: #578394;
-    display: flex;
+    display: block;
     position: relative;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+    padding-bottom: 10%;
 }
 
 div.cta::before {
@@ -438,18 +441,15 @@ div.cta::before {
 }
 
 ul#cta {
-    grid-column: auto;
-    align-items: center;
-    position: relative;
     margin: 0 auto;
     width: 90%;
 }
 
 ul#cta li {
     align-items: center;
-    text-align: left;
     position: relative;
-    padding: 100px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 ul#cta li input {
@@ -459,19 +459,18 @@ ul#cta li input {
     background: #603B94;
     width: 446px;
     height: 45px;
-    display: flex;
-    position: relative;
     justify-content: space-evenly;
-    float: right;
-    align-items: center;
     color: #FFFFFF;
-    text-align: center;
     font-family: Alfa Slab One;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: -80px;
+    float: right;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-left: 150px;
+
 }
 
 ul#cta img {
@@ -479,14 +478,12 @@ ul#cta img {
     position: relative;
     align-items: center;
     justify-content: space-evenly;
-    display: flex;
+    display: block;
     width: 446px;
     height: 378px;
     border-radius: 30px;
     border: 10px solid #24647D;
     background: lightgray -84.09px 0px / 131.352% 100% no-repeat;
-    margin-top: -600px;
-    margin-left: 100px;
 }
 
 ul#cta li h1 {
@@ -500,6 +497,7 @@ ul#cta li h1 {
     justify-content: center;
     position: relative;
     width: 495px;
+    padding: 15% 0% 0% 0%;
 }
 
 ul#cta p {
@@ -517,6 +515,8 @@ div.depoimentos {
     height: 100%;
     margin: 0 auto;
     align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .depoimentos h1 {
@@ -527,9 +527,8 @@ div.depoimentos {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-top: 50px;
-    padding-bottom: 80px;
     margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 .carrossel {

@@ -101,7 +101,7 @@
 
     div p#text-luis {
         width: 100%;
-        height: 1550px;
+        height: 100vh;
         padding: 2em 2em;
         font-size: 25px;
     }
@@ -369,7 +369,8 @@
     div.sobre-mim {
         width: 100%;
         height: 100%;
-        padding-bottom: 0;
+        padding-bottom: 60%;
+        margin-top: 0;
     }
 
     img#foto-luis {
@@ -388,7 +389,7 @@
     div p#text-luis {
         width: 100%;
         height: 100%;
-        padding: 0em 2em;
+        margin: 0 auto;
         font-size: 25px;
     }
 
@@ -438,8 +439,8 @@
     }
 
     article p {
-        font-size: 13px;
-        width: 130px;
+        font-size: 11.2px;
+        width: 100%;
     }
 
     div.cta {
@@ -514,7 +515,6 @@
         width: 100%;
         text-align: center;
         margin: 0 auto;
-        margin-top: -20%;
     }
 
     .carrossel img {
@@ -680,7 +680,7 @@
     div p#text-luis {
         width: 100%;
         height: 100%;
-        padding: 0em 2em;
+        padding-bottom: 60%;
         font-size: 25px;
     }
 
@@ -731,7 +731,7 @@
 
     article p {
         font-size: 13px;
-        width: 130px;
+        width: 100%;
     }
 
     div.cta {
@@ -806,7 +806,6 @@
         width: 100%;
         text-align: center;
         margin: 0 auto;
-        margin-top: -20%;
     }
 
     .carrossel img {
