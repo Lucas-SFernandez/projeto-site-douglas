@@ -312,22 +312,22 @@
         top: 0%;
     }
 
-    .fonte-cabecalho {
+    hgroup.fonte-cabecalho {
         position: relative;
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
+        width: 100%;
     }
 
     h1#titulo-cabecalho {
         font-size: 40px;
         margin-top: 10%;
-        width: 100%;
     }
 
     h2#sub-titulo-cabecalho {
         font-size: 25px;
-        width: 100%;
         text-align: center;
     }
 
@@ -607,22 +607,22 @@
         top: 0%;
     }
 
-    .fonte-cabecalho {
+    hgroup.fonte-cabecalho {
         position: relative;
-        display: block;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         text-align: center;
+        width: 100%;
     }
 
     h1#titulo-cabecalho {
         font-size: 35px;
         margin-top: 10%;
-        width: 100%;
     }
 
     h2#sub-titulo-cabecalho {
         font-size: 20px;
-        width: 100%;
         text-align: center;
     }
 
