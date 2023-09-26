@@ -333,20 +333,21 @@
         justify-content: center;
         text-align: center;
         width: 100%;
+        padding-top: 10%;
     }
 
     h1#titulo-cabecalho {
         font-size: 38px;
         margin-top: 10%;
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
     }
 
     h2#sub-titulo-cabecalho {
         font-size: 25px;
         text-align: center;
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
     }
 
     img#foto-cabecalho {
@@ -647,18 +648,19 @@
         justify-content: center;
         text-align: center;
         width: 100%;
+        padding-top: 10%;
     }
 
     h1#titulo-cabecalho {
         font-size: 35px;
         margin-top: 10%;
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
     }
 
     h2#sub-titulo-cabecalho {
         font-size: 20px;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         text-align: center;
     }
