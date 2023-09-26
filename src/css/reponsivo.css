@@ -306,10 +306,21 @@
         width: 100%;
     }
 
+    header{
+        height: 100%;
+    }
+
+    div.cabecalho{
+        padding-bottom: 0%;
+    }
+
+    div.cor-de-fundo{
+        height: 36em;
+        padding-bottom: 0%;
+    }
 
     div#background {
-        margin-top: 0;
-        top: 0%;
+        height: 36em;
     }
 
     div#background::before {
@@ -620,6 +631,13 @@
         width: 100%;
     }
 
+    div.cabecalho{
+        padding-bottom: 0%;
+    }
+
+    div.cor-de-fundo{
+        
+    }
 
     div#background {
         margin-top: 0;
@@ -671,9 +689,9 @@
         margin: 0 auto;
     }
 
-    li.foto-cabecalho{
+    /* li.foto-cabecalho{
         bottom: 30px;
-    }
+    } */
 
     ul.cards {
         width: 100%;
