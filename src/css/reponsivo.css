@@ -312,6 +312,20 @@
         top: 0%;
     }
 
+    div#background::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(../imagens/adulto-segurando-bola-de-luz1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        opacity: 50%;
+        z-index: 0;
+    }
+
     hgroup.fonte-cabecalho {
         position: relative;
         display: flex;
@@ -610,6 +624,21 @@
         margin-top: 0;
         top: 0%;
     }
+
+    div#background::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url(../imagens/adulto-segurando-bola-de-luz1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        opacity: 50%;
+        z-index: 0;
+    }
+
 
     hgroup.fonte-cabecalho {
         position: relative;
