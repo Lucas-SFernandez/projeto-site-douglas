@@ -325,14 +325,14 @@
         font-size: 40px;
         margin-top: 10%;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
 
     h2#sub-titulo-cabecalho {
         font-size: 25px;
         text-align: center;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
 
     img#foto-cabecalho {
@@ -624,12 +624,12 @@
         font-size: 35px;
         margin-top: 10%;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
 
     h2#sub-titulo-cabecalho {
         font-size: 20px;
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         text-align: center;
     }
