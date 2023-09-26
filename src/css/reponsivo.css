@@ -671,6 +671,10 @@
         margin: 0 auto;
     }
 
+    li.foto-cabecalho{
+        bottom: 30px;
+    }
+
     ul.cards {
         width: 100%;
         padding: 0;
