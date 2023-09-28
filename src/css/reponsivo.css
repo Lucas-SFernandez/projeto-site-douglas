@@ -389,6 +389,10 @@
         height: 100.964px;
     }
 
+    li#img4{
+        bottom: 2%;
+    }
+
 
     nav h1 {
         font-size: 20px;
@@ -686,9 +690,6 @@
         margin: 0 auto;
     }
 
-    /* li.foto-cabecalho{
-        bottom: 30px;
-    } */
 
     ul.cards {
         width: 100%;
