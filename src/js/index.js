@@ -42,7 +42,7 @@ const imagens = document.querySelectorAll('.imagem');
 botoescarrosselt.forEach((botaot, indice) => {
   botaot.addEventListener('click', () => {
 
-    desativarBotaotSelecionadot();
+    desativarbotaotSelecionadot();
 
     selecionarBotaotCarrosselt(botaot);
 

@@ -9,6 +9,7 @@ body {
 header {
     background-color: #691D02;
     height: 100%;
+    padding: 5% 0% 5% 0%;
 }
 
 hgroup.cabecalho {
@@ -29,6 +30,7 @@ hgroup.cabecalho h2 {
     font-family: Alegreya SC;
     font-size: 30px;
     font-weight: 600;
+    padding-bottom: 8%;
 }
 
 hgroup.cabecalho h3 {
@@ -36,6 +38,7 @@ hgroup.cabecalho h3 {
     font-family: Alfa Slab One;
     font-size: 30px;
     font-weight: 400;
+    padding-bottom: 2%;
 }
 
 hgroup.cabecalho p {
@@ -43,22 +46,34 @@ hgroup.cabecalho p {
     font-family: Allerta;
     font-size: 20px;
     font-weight: 400;
+    padding-bottom: 5%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 header input {
     width: 616px;
-    height: 60px;
+    height: 50px;
     border-radius: 50px;
     border-bottom: 7px solid rgba(0, 82, 43, 0.67);
     border-left: 3px solid rgba(0, 82, 43, 0.67);
     background: #45BC11;
     cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Archivo Black;
+    font-size: 24.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0% 28.6%;
 }
 
 /* ----------nav(Biografia e cards)---------- */
 div.bio-douglas {
     background-color: #824129;
     height: 100%;
+    padding: 8% 0%;
 }
 
 img#douglas {
@@ -69,12 +84,8 @@ img#douglas {
     margin: 0% 31.87%;
 }
 
-hgroup.douglas {
-    width: 80%;
-    margin: 0 auto;
-}
 
-hgroup.douglas h1 {
+div.bio-douglas h1 {
     color: #BA823D;
     text-align: center;
     font-family: Alegreya SC;
@@ -84,13 +95,13 @@ hgroup.douglas h1 {
 
 }
 
-hgroup.douglas h2 {
+div.bio-douglas h2 {
     color: #BA823D;
     font-family: Alegreya SC;
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-
+    padding-bottom: 5%;
 }
 
 hgroup.douglas p {
@@ -98,6 +109,9 @@ hgroup.douglas p {
     font-family: Allerta;
     font-size: 20px;
     font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
 }
 
 div.cards {
