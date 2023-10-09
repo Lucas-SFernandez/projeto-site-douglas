@@ -3,7 +3,7 @@ const textos = document.querySelectorAll('.texto');
 
 
 botoescarrossel.forEach((botao, indice) => {
-  botao.addEventListener('click' , () => {
+  botao.addEventListener('click', () => {
 
     desativarBotaoSelecionado();
 
@@ -12,7 +12,7 @@ botoescarrossel.forEach((botao, indice) => {
     esconderTextoAtivo();
 
     mostrarTextoDeFundo(indice);
-  }) 
+  })
 });
 
 function mostrarTextoDeFundo(indice) {
@@ -33,31 +33,31 @@ function desativarBotaoSelecionado() {
   (botaoSelecionado.classList.remove('selecionado'));
 }
 
-// _________________Carrossel2__________________
+// _________________Carrossel2________________
 
-const botoescarrossel2 = document.querySelectorAll('.botao2');
+const botoescarrosselt = document.querySelectorAll('.botaot');
 const imagens = document.querySelectorAll('.imagem');
 
 
-botoescarrossel2.forEach((botao2, indice) => {
-  botao.addEventListener('click' , () => {
+botoescarrosselt.forEach((botaot, indice) => {
+  botaot.addEventListener('click', () => {
 
-    desativarBotaoSelecionado();
+    desativarBotaotSelecionadot();
 
-    selecionarBotaoCarrossel(botao);
+    selecionarBotaotCarrosselt(botaot);
 
     esconderImagemAtiva();
 
     mostrarImagemDeFundo(indice);
-  }) 
+  })
 });
 
 function mostrarImagemDeFundo(indice) {
   imagens[indice].classList.add('ativa');
 }
 
-function selecionarBotaoCarrossel(botao) {
-  botao.classList.add('selecionado');
+function selecionarBotaotCarrosselt(botaot) {
+  botaot.classList.add('selecionadot');
 }
 
 function esconderImagemAtiva() {
@@ -65,7 +65,7 @@ function esconderImagemAtiva() {
   imagemAtiva.classList.remove('ativa');
 }
 
-function desativarBotaoSelecionado() {
-  const botaoSelecionado = document.querySelector('.selecionado');
-  (botaoSelecionado.classList.remove('selecionado'));
+function desativarbotaotSelecionadot() {
+  const botaotSelecionadot = document.querySelector('.selecionadot');
+  (botaotSelecionadot.classList.remove('selecionadot'));
 }
