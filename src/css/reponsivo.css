@@ -1,8 +1,426 @@
 @media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    /* -----------------Cabeçalho----------------- */
+    header input {
+        width: 416px;
+        height: 50px;
+        margin: 0% 22.3%;
+        font-size: 22.2px;
+    }
+
+    header::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        margin-bottom: 10%;
+        justify-content: center;
+        background-image: url(../imagens/sri-yantra.svg);
+        background-repeat: no-repeat;
+        background-size: 90%;
+        background-position: bottom;
+        opacity: 20%;
+        z-index: 0;
+    }
+
+    /* ----------nav(Biografia e cards)---------- */
+    img#douglas {
+        width: 422px;
+        margin: 0% 21.87%;
+    }
+
+    div.bio-douglas h1 {
+        font-size: 75px;
+    }
+
+    div.bio-douglas h2 {
+        font-size: 35px;
+    }
+
+    hgroup.douglas p {
+        font-size: 18px;
+    }
+
+    /* ----------nav(Cards)---------- */
+    div.cards img {
+        margin: 0% 25%;
+    }
+
+    /* -----------------main(Carrossel)----------------- */
+    div.botoes-carrossel button {
+        font-size: 18px;
+        padding: 1% 5%;
+    }
+
+    div.texto h1 {
+        font-size: 40px;
+    }
+
+    div.texto p {
+        font-size: 18px;
+    }
+
+    /* -----------------main(Dúvidas Frequêntes)----------------- */
+    div.duvidas li h1 {
+        font-size: 18px;
+    }
+
+    div.duvidas li p {
+        font-size: 11px;
+    }
+
+    h1#duvidas-frequentes {
+        font-size: 50px;
+    }
+
+    /* -----------------main(cta)----------------- */
+    div.cta ul {
+        width: 100%;
+        height: 100%;
+    }
+
+    div.cta li {
+        column-count: 2;
+        width: 85%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    li#terapia-para-casais,
+    li#terapia-individual {
+        height: 100%;
+    }
+
+    li#terapia-para-casais h1,
+    li#terapia-individual h1 {
+        font-size: 50px;
+    }
+
+    li#terapia-para-casais p,
+    li#terapia-individual p {
+        font-size: 16.62px;
+    }
+
+    li#terapia-para-casais input,
+    li#terapia-individual input {
+        width: 284px;
+        height: 45px;
+        font-size: 18px;
+        margin-left: 8%;
+        margin-bottom: 30%;
+    }
+
+    li#terapia-para-casais img {
+        width: 320px;
+        border: 8px solid #691D02;
+        margin-top: 50%;
+    }
+
+    li#terapia-individual img {
+        width: 320px;
+        border: 8px solid #691D02;
+        margin-top: 40%;
+    }
+
+    /* ----------------main(Depoimentos)---------------- */
+    div.depoimentos h1 {
+        font-size: 50px;
+    }
+
+    div.depoimentos h2 {
+        font-size: 30px;
+    }
+
+    .imagem img {
+        width: 611px;
+    }
+
+    /* -----------------main(cta2)----------------- */
+    li#seja-um-aluno input,
+    li#agende-sua-sessao input {
+        width: 284px;
+        height: 50px;
+        font-size: 18px;
+        margin-bottom: 40%;
+    }
+
+    li#seja-um-aluno img {
+        width: 296px;
+        border: 8px solid #691D02;
+        margin-bottom: 5%;
+        margin-top: 60%;
+    }
+
+    li#agende-sua-sessao img {
+        width: 296px;
+        border: 8px solid #691D02;
+        margin-bottom: 5%;
+        margin-top: 40%;
+    }
+
+    li#seja-um-aluno h1,
+    li#agende-sua-sessao h1 {
+        font-size: 45px;
+        padding-bottom: 2%;
+    }
+
+    li#seja-um-aluno p,
+    li#agende-sua-sessao p {
+        font-size: 16.62px;
+        width: 80%;
+    }
+
+    li#seja-um-aluno,
+    li#agende-sua-sessao {
+        padding-top: 0%;
+    }
+
+    /* ------------------Rodapé------------------ */
+    footer {
+        background-color: #824129;
+        padding: 5% 0%;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media (max-width: 425px) {
+    body {
+        width: 100%;
+    }
+
+        /* -----------------Cabeçalho----------------- */
+        hgroup.cabecalho {
+            width: 90%;
+        }
+
+        hgroup.cabecalho h1 {
+            font-size: 50px;
+        }
+        
+        hgroup.cabecalho h2 {
+            font-size: 30px;
+        }
+        
+        hgroup.cabecalho h3 {
+            font-size: 18px;
+            width: 100%;
+        }
+        
+        hgroup.cabecalho p {
+            font-size: 13px;
+        }
+        
+        header input {
+            width: 316px;
+            height: 40px;
+            margin: 0% 12%;
+            font-size: 17.5px;
+        }
+    
+        header::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            margin-bottom: 80%;
+            justify-content: center;
+            background-image: url(../imagens/sri-yantra.svg);
+            background-repeat: no-repeat;
+            background-size: 90%;
+            background-position: bottom;
+            opacity: 20%;
+            z-index: 0;
+        }
+    
+        /* ----------nav(Biografia e cards)---------- */
+        img#douglas {
+            width: 322px;
+            margin: 0% 10.87%;
+        }
+    
+        div.bio-douglas h1 {
+            font-size: 55px;
+        }
+    
+        div.bio-douglas h2 {
+            font-size: 30px;
+        }
+    
+        hgroup.douglas p {
+            font-size: 15px;
+        }
+    
+        /* ----------nav(Cards)---------- */
+        div.cards img {
+            width: 90px;
+            margin: 0% 21%;
+        }
+
+        div.cards li h1 {
+            font-size: 15px;
+        }
+        
+        
+        div.cards li p {
+            font-size: 11px;
+            width: 80%;
+        }
+    
+        /* -----------------main(Carrossel)----------------- */
+        div.botoes-carrossel button {
+            font-size: 10px;
+            padding: 0% 4%;
+        }
+    
+        div.texto h1 {
+            font-size: 40px;
+            padding-top: 5%;
+        }
+
+        h1#como-funciona{
+            font-size: 32px;
+        }
+    
+        div.texto p {
+            font-size: 15px;
+        }
+    
+        /* -----------------main(Dúvidas Frequêntes)----------------- */
+        div.duvidas li h1 {
+            font-size: 14px;
+        }
+    
+        div.duvidas li p {
+            font-size: 10px;
+        }
+    
+        h1#duvidas-frequentes {
+            font-size: 50px;
+        }
+    
+        div.duvidas ul {
+            column-count: 4;
+            column-gap: 10%;
+        }
+
+        div.duvidas li{
+            bottom: 80%;
+        }
+        /* -----------------main(cta)----------------- */
+        div.cta ul {
+            width: 100%;
+            height: 100%;
+        }
+    
+        div.cta li {
+            column-count: 2;
+            width: 85%;
+            height: 100%;
+            margin: 0 auto;
+        }
+    
+        li#terapia-para-casais,
+        li#terapia-individual {
+            height: 100%;
+        }
+    
+        li#terapia-para-casais h1,
+        li#terapia-individual h1 {
+            font-size: 50px;
+        }
+    
+        li#terapia-para-casais p,
+        li#terapia-individual p {
+            font-size: 16.62px;
+        }
+    
+        li#terapia-para-casais input,
+        li#terapia-individual input {
+            width: 284px;
+            height: 45px;
+            font-size: 18px;
+            margin-left: 8%;
+            margin-bottom: 30%;
+        }
+    
+        li#terapia-para-casais img {
+            width: 320px;
+            border: 8px solid #691D02;
+            margin-top: 50%;
+        }
+    
+        li#terapia-individual img {
+            width: 320px;
+            border: 8px solid #691D02;
+            margin-top: 40%;
+        }
+    
+        /* ----------------main(Depoimentos)---------------- */
+        div.depoimentos h1 {
+            font-size: 50px;
+        }
+    
+        div.depoimentos h2 {
+            font-size: 30px;
+        }
+    
+        .imagem img {
+            width: 611px;
+        }
+    
+        /* -----------------main(cta2)----------------- */
+        li#seja-um-aluno input,
+        li#agende-sua-sessao input {
+            width: 284px;
+            height: 50px;
+            font-size: 18px;
+            margin-bottom: 40%;
+        }
+    
+        li#seja-um-aluno img {
+            width: 296px;
+            border: 8px solid #691D02;
+            margin-bottom: 5%;
+            margin-top: 60%;
+        }
+    
+        li#agende-sua-sessao img {
+            width: 296px;
+            border: 8px solid #691D02;
+            margin-bottom: 5%;
+            margin-top: 40%;
+        }
+    
+        li#seja-um-aluno h1,
+        li#agende-sua-sessao h1 {
+            font-size: 45px;
+            padding-bottom: 2%;
+        }
+    
+        li#seja-um-aluno p,
+        li#agende-sua-sessao p {
+            font-size: 16.62px;
+            width: 80%;
+        }
+    
+        li#seja-um-aluno,
+        li#agende-sua-sessao {
+            padding-top: 0%;
+        }
+    
+        /* ------------------Rodapé------------------ */
+        footer {
+            background-color: #824129;
+            padding: 5% 0%;
+            width: 100%;
+            height: 100%;
+        }
 }
 
 @media (max-width: 360px) {
+    body {
+        width: 100%;
+    }
 }

@@ -87,7 +87,7 @@ header input {
     margin: 0% 28.6%;
 }
 
-/* ----------nav(Biografia e cards)---------- */
+/* ----------nav(Biografia)---------- */
 div.bio-douglas {
     background-color: #824129;
     height: 100%;
@@ -148,7 +148,7 @@ hgroup.douglas p {
     margin: 0 auto;
     padding-top: 5%;
 }
-
+/* ----------nav(Cards)---------- */
 div.cards {
     background-color: #D4D4D4;
     height: 100%;
@@ -269,7 +269,7 @@ div.botoes-carrossel button {
     font-family: Alfa Slab One;
     font-size: 20px;
     font-weight: 400;
-    padding: 2%;
+    padding: 1%;
     padding-bottom: 3%;
     cursor: pointer;
 }
@@ -471,7 +471,7 @@ li#terapia-individual p {
     width: 85%;
 }
 
-/* -----------------main(cta2/Depoimentos)----------------- */
+/* ----------------main(Depoimentos)---------------- */
 div.depoimentos {
     height: 100%;
     margin-top: 15%;
