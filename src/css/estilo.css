@@ -17,7 +17,7 @@ header::before {
     position: absolute;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/sri-yantra.svg);
+    background-image: url(../imagens/sri-yantra.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -103,7 +103,7 @@ div.bio-douglas::before {
     height: 100%;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/background-bio.svg);
+    background-image: url(../imagens/background-bio.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -211,7 +211,7 @@ div.sobre-tantra::before {
     height: 100%;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/background-tantra.svg);
+    background-image: url(../imagens/background-tantra.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -324,7 +324,7 @@ div.duvidas::before {
     height: 100%;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/background-perguntas.svg);
+    background-image: url(../imagens/background-perguntas.png);
     background-repeat: repeat;
     background-position: bottom;
     opacity: 50%;
@@ -387,7 +387,7 @@ div.cta::before {
     height: 100%;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/background-cta.svg);
+    background-image: url(../imagens/background-cta.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -574,7 +574,7 @@ div.cta2::before {
     height: 100%;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/background-cta.svg);
+    background-image: url(../imagens/background-cta.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -675,7 +675,7 @@ footer::before {
     align-items: center;
     inset: 0;
     justify-content: center;
-    background-image: url(../imagens/sri-yantra.svg);
+    background-image: url(../imagens/sri-yantra.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
