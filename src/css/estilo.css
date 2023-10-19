@@ -669,7 +669,7 @@ footer {
     height: 100%;
 }
 
-div.footer::before {
+footer::before {
     content: "";
     position: absolute;
     align-items: center;
@@ -683,11 +683,13 @@ div.footer::before {
     z-index: -1;
     margin: 0% 0% 0% 2.5%;
 }
+footer{
+    position: relative;
+    z-index: 1;
+}
 
 div.footer {
-    position: relative;
     width: 100%;
-    z-index: 1;
 }
 
 div.icons {
@@ -696,6 +698,11 @@ div.icons {
     margin: 0 auto;
     padding-left: 10%;
     padding-top: 5%;
+    cursor: pointer;
+}
+
+div.icons a{
+    cursor: pointer;
 }
 
 div.icons img {
