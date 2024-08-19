@@ -1,0 +1,759 @@
+body {
+    max-width: 1620px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+
+/* -----------------Cabeçalho----------------- */
+header {
+    background-color: #691D02;
+    height: 100%;
+    padding: 5% 0% 5% 0%;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    justify-content: center;
+    background-image: url(../imagens/sri-yantra.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    opacity: 20%;
+    z-index: 0;
+}
+
+header div {
+    z-index: 1;
+    position: relative;
+}
+
+hgroup.cabecalho {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+hgroup.cabecalho h1 {
+    color: #BA823D;
+    font-family: Alegreya SC;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+hgroup.cabecalho h2 {
+    color: #BA823D;
+    font-family: Alegreya SC;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 8%;
+}
+
+hgroup.cabecalho h3 {
+    color: #BA823D;
+    font-family: Alfa Slab One;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+hgroup.cabecalho p {
+    color: #FFF;
+    font-family: Allerta;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 5%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header input {
+    width: 616px;
+    height: 50px;
+    border-radius: 50px;
+    border-bottom: 7px solid rgba(0, 82, 43, 0.67);
+    border-left: 3px solid rgba(0, 82, 43, 0.67);
+    background: #45BC11;
+    cursor: pointer;
+    color: #FFF;
+    text-align: center;
+    font-family: Archivo Black;
+    font-size: 24.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0% 28.6%;
+}
+
+/* ----------nav(Biografia)---------- */
+div.bio-douglas {
+    background-color: #824129;
+    height: 100%;
+    padding: 8% 0%;
+    z-index: 1;
+    position: relative;
+}
+
+div.bio-douglas::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    inset: 0;
+    justify-content: center;
+    background-image: url(../imagens/background-bio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 10%;
+    z-index: -1;
+}
+
+img#douglas {
+    width: 522px;
+    border-radius: 1000px;
+    border: 10px solid #691D02;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 0% 31.87%;
+}
+
+
+div.bio-douglas h1 {
+    color: #BA823D;
+    text-align: center;
+    font-family: Alegreya SC;
+    font-size: 85px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+div.bio-douglas h2 {
+    color: #BA823D;
+    font-family: Alegreya SC;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+hgroup.douglas p {
+    color: #FFF;
+    font-family: Allerta;
+    font-size: 20px;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+/* ----------nav(Cards)---------- */
+div.cards {
+    background-color: #D4D4D4;
+    height: 100%;
+    padding: 5% 0%;
+}
+
+div.cards img {
+    width: 152px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border-radius: 1000px;
+    border: 5px solid #691D02;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 0% 37%;
+}
+
+div.cards ul {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    flex-direction: column;
+    column-count: 2;
+}
+
+div.cards li {
+    width: 100%;
+}
+
+div.cards li h1 {
+    color: #5C3506;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+div.cards li p {
+    color: #000;
+    padding-top: 2%;
+    margin: 0 auto;
+    width: 50%;
+    font-family: Allerta;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* -----------------main(Carrossel)----------------- */
+div.sobre-tantra {
+    background-color: #824129;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+div.sobre-tantra::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    inset: 0;
+    justify-content: center;
+    background-image: url(../imagens/background-tantra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    opacity: 15%;
+    z-index: -1;
+}
+
+div.carrossel1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.carrossel1 .texto {
+    padding: 0% 0% 8% 0%;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    object-fit: cover;
+    display: none;
+    animation: mudartexto 0.7s;
+}
+
+.carrossel1 .texto.ativo {
+    display: block;
+}
+
+div.botoes-carrossel {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+@keyframes mudartexto {
+    from {
+        opacity: 0.85;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+div.botoes-carrossel button {
+    float: right;
+    border-radius: 0px 0px 0px 50px;
+    border-top: 1px solid #312828;
+    border-right: 1px solid #312828;
+    border-bottom: 8px solid #312828;
+    border-left: 8px solid #312828;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), #691D02;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1%;
+    padding-bottom: 3%;
+    cursor: pointer;
+}
+
+.botoes-carrossel .botao.selecionado {
+    color: #FE8E04;
+}
+
+.botao.selecionado {
+    border-color: #000000;
+}
+
+div button#botao {
+    margin: 0% 1% 0% 0%;
+    border-radius: 0px 0px 50px 50px;
+    border-right: 8px solid #312828;
+}
+
+div.texto h1 {
+    color: #BA823D;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 50px;
+    font-weight: 400;
+    width: 60%;
+    margin: 0 auto;
+}
+
+div.texto p {
+    color: #FFF;
+    font-family: Allerta;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5%;
+}
+
+/* -----------------main(Dúvidas Frequêntes)----------------- */
+div.duvidas {
+    background-color: #D9D9D9;
+    height: 100%;
+    padding: 5% 5% 5% 5%;
+    position: relative;
+    z-index: 1;
+}
+
+div.duvidas::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    inset: 0;
+    justify-content: center;
+    background-image: url(../imagens/background-perguntas.png);
+    background-repeat: repeat;
+    background-position: bottom;
+    opacity: 50%;
+    z-index: -1;
+}
+
+h1#duvidas-frequentes {
+    color: #5C3506;
+    text-align: center;
+    font-family: Alfa Slab One;
+    margin: 0 auto;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 5%;
+}
+
+div.duvidas ul {
+    column-count: 4;
+    column-gap: 5%;
+}
+
+div.duvidas li {
+    margin: 0% 0% 10% 0%;
+    height: 20em;
+}
+
+div.duvidas li h1 {
+    color: #000;
+    font-family: Allerta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.duvidas li p {
+    color: #000;
+    font-family: Allerta;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* -----------------main(cta)----------------- */
+div.cta {
+    background-color: #824129;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+div.cta::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    inset: 0;
+    justify-content: center;
+    background-image: url(../imagens/background-cta.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    opacity: 10%;
+    z-index: -1;
+}
+
+div.cta li {
+    column-count: 2;
+    width: 85%;
+    margin: 0 auto;
+}
+
+li#terapia-para-casais,
+li#terapia-individual {
+    padding-top: 10%;
+}
+
+li#terapia-para-casais input,
+li#terapia-individual input {
+    border-radius: 50px;
+    border-top: 7px solid rgba(0, 82, 43, 0.67);
+    border-left: 3px solid rgba(0, 82, 43, 0.67);
+    background: #45BC11;
+    width: 484px;
+    height: 50px;
+    margin-top: 5%;
+    display: block;
+    margin-left: 5%;
+    color: #FFF;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+li#terapia-para-casais img {
+    border-radius: 30px;
+    border: 10px solid #691D02;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 550px;
+}
+
+li#terapia-individual img {
+    border-radius: 30px;
+    border: 10px solid #691D02;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 550px;
+}
+
+li#terapia-para-casais h1,
+li#terapia-para-casais p,
+li#terapia-individual h1,
+li#terapia-individual p {
+    height: 100%;
+}
+
+li#terapia-para-casais h1,
+li#terapia-individual h1 {
+    color: #A8620C;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Alfa Slab One;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+li#terapia-para-casais p,
+li#terapia-individual p {
+    color: #FFF;
+    font-family: Allerta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 85%;
+}
+
+/* ----------------main(Depoimentos)---------------- */
+div.depoimentos {
+    height: 100%;
+    margin-top: 15%;
+}
+
+div.depoimentos h1 {
+    color: #BA823D;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.depoimentos h2 {
+    color: #FFF;
+    font-family: Alfa Slab One;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.depoimentos h1,
+div.depoimentos h2 {
+    text-align: center;
+}
+
+.imagem img {
+    width: 811px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.botoes-carrosselt {
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    margin-top: 5%;
+}
+
+.botoes-carrosselt .botaot {
+    background-color: #ffffff;
+    width: 48px;
+    height: 14px;
+    border-radius: 50px;
+    border: 2.5px solid transparent;
+    border-color: #ffffff;
+}
+
+.botaot {
+    cursor: pointer;
+}
+
+.botoes-carrosselt .botaot.selecionadot {
+    background-color: #A26939;
+}
+
+.carrosselt {
+    position: relative;
+    width: 100%;
+
+}
+
+.carrosselt .imagem {
+    object-fit: cover;
+    display: none;
+    animation: mudarimagem 0.7s;
+}
+
+.carrosselt .imagem.ativa {
+    display: block;
+}
+
+@keyframes mudarimagem {
+    from {
+        opacity: 0.85;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* -----------------main(cta2)----------------- */
+div.cta2 {
+    background-color: #D9D9D9;
+    height: 100%;
+    padding: 10% 0%;
+    position: relative;
+    z-index: 1;
+}
+
+div.cta2::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    height: 100%;
+    inset: 0;
+    justify-content: center;
+    background-image: url(../imagens/background-cta.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    opacity: 10%;
+    z-index: -1;
+}
+
+div.cta2 li {
+    column-count: 2;
+    width: 85%;
+    margin: 0 auto;
+}
+
+li#seja-um-aluno,
+li#agende-sua-sessao {
+    padding-top: 10%;
+}
+
+li#seja-um-aluno input,
+li#agende-sua-sessao input {
+    border-radius: 50px;
+    border-top: 7px solid rgba(0, 82, 43, 0.67);
+    border-left: 3px solid rgba(0, 82, 43, 0.67);
+    background: #45BC11;
+    width: 484px;
+    height: 50px;
+    display: block;
+    margin-left: 5%;
+    color: #FFF;
+    text-align: center;
+    font-family: Alfa Slab One;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+li#seja-um-aluno img {
+    border-radius: 30px;
+    border: 10px solid #691D02;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 596px;
+    margin-bottom: 5%;
+}
+
+li#agende-sua-sessao img {
+    border-radius: 30px;
+    border: 10px solid #691D02;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    width: 596px;
+    margin-bottom: 5%;
+}
+
+li#seja-um-aluno h1,
+li#seja-um-aluno p,
+li#agende-sua-sessao h1,
+li#agende-sua-sessao p {
+    height: 100%;
+}
+
+li#seja-um-aluno h1,
+li#agende-sua-sessao h1 {
+    color: #5C3506;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Alfa Slab One;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+li#seja-um-aluno p,
+li#agende-sua-sessao p {
+    color: #000000;
+    font-family: Allerta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+}
+
+/* ------------------Rodapé------------------ */
+footer {
+    background-color: #824129;
+    padding: 3% 0%;
+    width: 100%;
+    height: 100%;
+}
+
+footer::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    inset: 0;
+    justify-content: center;
+    background-image: url(../imagens/sri-yantra.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    opacity: 20%;
+    z-index: -1;
+    margin: 0% 0% 0% 2.5%;
+}
+footer{
+    position: relative;
+    z-index: 1;
+}
+
+div.footer {
+    width: 100%;
+}
+
+div.icons {
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+    padding-left: 10%;
+    padding-top: 5%;
+    cursor: pointer;
+}
+
+div.icons a{
+    cursor: pointer;
+}
+
+div.icons img {
+    width: 35px;
+    margin: 0% 3%;
+    cursor: pointer;
+}
+
+hgroup.footer2 {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    column-count: 2;
+    padding-right: 26%;
+}
+
+hgroup.footer2 p {
+    color: #000;
+    text-align: center;
+    font-family: Allerta;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 8%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p#copy {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3%;
+    color: rgba(0, 0, 0, 0.90);
+    text-align: center;
+    font-family: Allerta;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p#lucas {
+    width: 30%;
+    float: right;
+    color: rgba(0, 0, 0, 0.90);
+    text-align: center;
+    font-family: Allerta;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
